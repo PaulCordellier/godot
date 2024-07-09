@@ -87,6 +87,7 @@
 			<param index="1" name="value" type="bool" />
 			<description>
 				Based on [param value], enables or disables the specified layer in the [member collision_layer], given a [param layer_number] between 1 and 32.
+				[b]Note:[/b] By default, only the first collision layer is enabled.
 			</description>
 		</method>
 		<method name="set_collision_mask_value">
@@ -95,6 +96,7 @@
 			<param index="1" name="value" type="bool" />
 			<description>
 				Based on [param value], enables or disables the specified layer in the [member collision_mask], given a [param layer_number] between 1 and 32.
+				[b]Note:[/b] By default, only the first collision mask is enabled.
 			</description>
 		</method>
 		<method name="shape_find_owner" qualifiers="const">
